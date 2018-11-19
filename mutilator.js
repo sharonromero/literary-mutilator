@@ -26,6 +26,11 @@
 //function myFunction() {
 	//document.getElementById('color').innerHTML = 'Shizzle';
 
-document.getElementById("color").innerHTML = "Replace";
-
+//document.getElementById("color").innerHTML = "Replace";
 //}
+
+function changeText() {
+	document.getElementById("textChanger").onclick = function() {
+		document.getElementById("color").innerHTML = "Text has been changed";
+	}
+}
